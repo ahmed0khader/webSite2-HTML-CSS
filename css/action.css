@@ -1,0 +1,27 @@
+.breadcrumb{
+    margin-top: 90px;
+    background-color: #F5F5F5;
+    padding: 11px;
+}
+.faq{
+    padding: 20 0;
+}
+.faq h1{
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.faq .lead{
+    margin-bottom: 37px;
+}
+.faq-questions .panel-heading a i{
+    float: right;
+    color: #555;
+}
+
+/* .faq-questions .panel-heading a::after{
+    font-family: 'Glyphicons Halflings';
+    content: "\ell4";
+    float: right;
+    color: #444;
+} */

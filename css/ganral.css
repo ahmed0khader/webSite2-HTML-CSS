@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-b{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.clear{
+    clear: both;
+}
+h1, h2, h3, h4, h5, p, .lead{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.mose{
+    cursor: pointer;
+}

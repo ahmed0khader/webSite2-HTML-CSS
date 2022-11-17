@@ -1,0 +1,503 @@
+/**========== Start Navbar =========**/
+.navbar-inverse .navbar-nav > li > a{
+    transition: all 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.navbar-inverse{border: 0;}
+.nav > li > a{padding: 10 25px;}
+
+.navbar-nav > li > .dropdown-menu{left: 0;}
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus{
+    color: #fff;
+    background-color: #000;
+}
+/** Start Dropdown **/
+.dropdown-menu {
+    background-color: #333;
+    min-width: 190px;
+    border-top: 4px solid rgb(99, 99, 99);
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+.dropdown-menu > .divider{background-color:#666;}
+.dropdown-menu > li > a:hover{ 
+    background-color: #666;
+    padding-left: 25px;
+    color: #fff;
+}
+.navbar-toggle{margin-top: 14px;}
+/** End Dropdown **/
+.navbar .container .navbar-header a.logo {
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar .container .navbar-header .logo span {color: rgb(138, 135, 135);}
+.navbar .container .navbar-header a.logo {margin-left: 10px;}
+/**========== End Navbar =========**/
+/**========== Start slider  =========**/
+/* Start img */
+.carousel-inner > .item > img{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-inner > .item .item-title{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 170px;
+}
+.carousel-inner > .item .item-title p{line-height: 2;}
+.carousel-indicators{
+    bottom: 80px;
+}
+/**========== Start slider  ========**/
+/**========== Start About  =========**/
+.about h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.about h3{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.about .about-title span{color: rgb(110, 61, 8);}
+.about p{line-height: 1.7;}
+/**========== End About  =========**/
+/**========== Start Section Features  =========**/
+.features{background: #e8e8e8;}
+.features .container h1{
+    margin: 10px 0 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.features .container h4{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.features .container .items .item .feat{margin-bottom: 20px;}
+
+.features .container .items .item .feat span > i{font-size: 30px;}
+
+.features .container .items .item .feat p{line-height: 1.8;}
+
+/**========== End Section Features  =========**/
+/**========== Start testimonials   =========**/
+.testimonials h1{
+    margin: 10px 0 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.testimonials h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.testimonials .lead{line-height: 1.8;}
+.testimonials .item span{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Original Surfer', cursive;
+    color: rgb(110, 61, 8);
+}
+.about-slider .carousel-inner{margin: 0 0 100px 0;}
+
+.about-slider .carousel-indicators{bottom: -149px;}
+
+.about-slider .carousel-indicators li.photo1,
+.about-slider .carousel-indicators li.photo2{
+    background-image: url(../images/say/11.jpg);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(110, 61, 8);
+}
+.about-slider .carousel-indicators li.photo2{
+    background-image: url(../images/say/14.jpg);
+    margin-left: 15px;
+}
+.about-slider .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+    transition: all 0.5s;
+}
+.about-slider .carousel-indicators li.active{opacity: 1;}
+/**========== End testimonials   =========**/
+/**========== Start Section Price Table   =========**/
+.price-table{
+    background: #e8e8e8;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.price-table .container h1{
+    margin: 10px 0 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.price-table .container h3{
+    margin: 10px 0 40px;
+    font-size: 26px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* Start price-box */
+.price-table .price-box{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.price-table .price-box h2{
+    margin: 5px 0 15px;
+}
+.price-table .price-box:hover p{
+    transform: scale(1.1, 1.1) rotate(360deg);
+}
+.price-table .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: #F3F3F3;
+    border: 2px solid  rgb(110, 61, 8);
+    border-radius: 50%;
+    transition-duration: 0.7s;
+}
+.price-table .price-box ul{
+    font-size: 18px;
+    margin: 15px;
+}
+.price-table .price-box ul li{padding: 5px;}
+
+.price-table .price-box a{margin: 10px;}
+/* End price-box */
+/**========== End Section Price Table  =========**/
+/**========== Start Section Our Team  =========**/
+.our-team{
+    background: url('../images/background/team.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 500px;
+    background-size: cover;
+    overflow: hidden;
+}
+.our-team .team{
+    background: rgba(2, 2, 2, 0.8);
+    color: #fff;
+    min-height: 500px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+/* Start title */
+.our-team .container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.our-team .container h3{
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* End title */
+/* Start row */
+.our-team .container .row{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.our-team .container .row .person{margin-bottom: 27px;}
+
+.our-team .container .row .person img{
+    height:130px;
+    width: 130px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.our-team .container .row .person img:hover{
+    transform: scale(1.1, 1.1) ;
+}
+.our-team .container .row .person .btn{margin-bottom: 10px;} 
+
+.our-team .container .row .person .btn i{
+    margin-left: 6px;
+    font-size: 20px;
+}
+.our-team .container .row .person p{
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+}
+.our-team .container .row .person .icon-call a > i{
+    color: rgb(184, 179, 179);
+    font-size: 22px;
+    margin: 8px 3px 0 3px;
+    transition: color 0.4s;
+}
+.our-team .container .row .person .icon-call a > i:hover{
+    color: #0895d1;
+}
+/* End row */
+/**========== End Section Our Team =========**/
+/**========== End Section Subscribe =========**/
+.subscribe{background: #e8e8e8;}
+/* Start Title */
+.subscribe .container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subscribe .container h3{
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.subscribe .container p{
+    font-size: 24px;
+    color: #666;
+}
+.subscribe .container h5{
+    font-size: 20px;
+}
+/* End Title */
+/* Start Form */
+.subscribe .container .form-inline input{
+    margin-right: 7px;
+    margin-bottom:15px;
+    width: 300px;
+}
+.subscribe .container .form-inline .btn{
+    margin-bottom: 19px;
+    font-size: 16px;
+}
+.btn-lg, .btn-group-lg > .btn{padding: 7px 16px;}
+
+.subscribe .container .form-inline .btn i{
+    font-size: 19px;
+}
+/* End Form */
+/**========== End Section Subscribe =========**/
+/**========== Start Section Stats =========**/
+.statistics{
+    background: url('../images/background/background2.webp') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+.statistics .background{
+    background: rgba(2, 2, 2, 0.8);
+    color: #888;
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+/* Start Tilte */
+.statistics .container h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+.statistics .container h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* End Tilte */
+.statistics .container .row  span{
+    font-size: 20px;
+}
+.statistics .container .row .mg-b{
+    margin-bottom: 20px;
+}
+/**========== End Section Stats =========**/
+/**========== End Section Our Skill =========**/
+.our-skills{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-skills h1{
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.our-skills .title{
+    margin-bottom: 70px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.our-skills h3{
+    font-weight: bold;
+}
+.our-skills .row .skills-progress .progress{
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.our-skills .row .skills-progress .progress .progress-bar{
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.our-skills .row .skills-progress:first-child{
+    margin-top: 30px;
+}
+.our-skills .row .skills-progress:last-child{
+    margin-bottom: 40px;
+}
+.our-skills .row .text-left{
+    margin-top: -10px;
+}
+/**========== End Section Our Skills =========**/
+/**========== Start Section Contact Us =========**/
+.contant-us{
+    background: url('../images/background/background4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+.contant-us .fields{
+    background: rgba(9, 9, 9, 0.6);
+    min-height: 400px; 
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color:#DDD;
+}
+/* Start Title */
+.contant-us .container h1{
+    margin: 10px 0 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contant-us .container h3{
+    margin: 10px 0 15px;
+    font-size: 33px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.contant-us .container p{
+    margin: 10px 0 15px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.contant-us .container h5{
+    margin: 10px 0 15px;
+    font-size: 114%;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* End Title */
+/* start Form */
+.contant-us textarea{height: 111px;}
+.contant-us input[type="text"],
+.contant-us textarea{
+    background: rgba(82, 78, 78, 0.9); color: #fff; border: none;
+}
+.contant-us .row form{
+    margin-bottom: 100px;
+}
+/* End Form */
+/**========== End Section Contact Us =========**/
+/**========== Start Section Our Clients  =========**/
+.our-clients{
+    background: #e8e8e8;
+}
+.our-clients .list-unstyled li img{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.our-clients img{
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.our-clients img:hover{
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+}
+/**========== End Section Our Clients =========**/
+/**========== Start Section Footer =========**/
+.footer{
+    background: #000;
+    color:#AAA;
+    padding-top:20px;
+}
+/*  Start Sitemap*/
+.footer a{
+    color: #AAA;
+    transition: all 0.4s;
+}
+.footer ul li a:hover{color: #0895d1}
+
+.footer h3{
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+.footer .three-columns{
+    overflow: hidden;
+}
+.footer .three-columns li{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+.footer .icon-columns{
+    overflow: hidden;
+}
+.footer .icon-columns li{
+    width: 15%;
+    float: left;
+}
+.footer .icon-columns li a:hover{
+    color: #0895d1;
+}
+/*  End Sitemap*/
+/*  Start Lates Articles*/
+.item{
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.item .media{
+    float: left;
+    top: 1;
+    margin-right: 10px;
+}
+/*  End Lates Articles*/
+
+/*  Start imgs */
+.footer .container img{
+    margin-left: 5px;
+    margin-bottom: 8px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+}
+.footer .container img:hover{
+    border: 2px solid #0895d1;
+}
+/*  End imgs */
+/*  Start Copyright */
+.copyright{
+    height: 55px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.copyright span{color: #0895d1;}
+.footer hr{margin-bottom: -2px;}
+/*  End Copyright */
+
+
+/**========== End Section Footer =========**/

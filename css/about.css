@@ -1,0 +1,101 @@
+.breadcrumb{
+    margin-top: 90px;
+    background-color: #F5F5F5;
+    padding: 11px;
+}
+/* End Breadecrumb */
+/* Start About Us */
+.about-us{
+    padding: 30px 0 70px;
+}
+.about-us .h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 53px;
+}
+.about-us hr{
+    width: 70%;
+    margin: 25px auto 20px;
+}
+.about-us p{
+    font-family: 'Girassol', cursive;
+    margin: 15px auto 20px;
+    line-height: 1.6;
+    word-spacing: 3px;
+    width: 80%;
+}
+.about-us .img-about-team{
+    height: 460px;
+    width: 80%;
+    margin: 50px auto 10px;
+}
+.about-us .img-about-team img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 5px #222049;
+}
+/* End About Us */
+/* Start About Features */
+.about-features{
+    margin-bottom: 20px;
+}
+.about-features .desc{
+    margin-bottom: 15px;
+}
+.about-features .features-title{
+    font-size: 20px;
+    font-weight:bold;
+    color:gray
+}
+.about-features p{
+    word-spacing: 2px;
+    line-height:1.5;
+    font-size: 17px
+}
+/* End About Features */
+/* Start About CEO */
+.about-ceo{
+    margin-top: 50px;
+    background: #EEE;
+}
+.about-ceo h2{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-ceo p{
+    line-height: 1.6;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+.about-ceo a {
+    width:65%;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+/* End About CEO */
+/* Start About img-page */
+.body-img{
+    background: rgb(141, 139, 139);
+
+}
+.about-img-page{
+    position: relative;
+    height: 100vh;
+
+}
+.about-img-page .container{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-img-page .container img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* End About img-page */
